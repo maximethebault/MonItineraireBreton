@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'BlanchCapsRegular';
+    src:         url('../fonts/blanch-caps.eot');
+    src:         url('../fonts/blanch-caps.eot?#iefix') format('embedded-opentype'),
+                 url('../fonts/blanch-caps.woff') format('woff'),
+                 url('../fonts/blanch-caps.ttf') format('truetype'),
+                 url('../fonts/blanch-caps.svg#BlanchCapsRegular') format('svg');
+    font-weight: normal;
+    font-style:  normal;
+}

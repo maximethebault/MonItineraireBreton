@@ -1,0 +1,72 @@
+body {
+	background-color: rgba(254,216,141, 0.32);
+}
+
+@font-face {
+    font-family: 'BlanchCapsRegular';
+    src: url(../fonts/BLANCH_CAPS.otf);
+}
+
+@font-face {
+    font-family: 'BlanchCondensed';
+    src: url(../fonts/BLANCH_CONDENSED.otf);
+}
+
+
+.logo {
+	vertical-align: text-top;
+}
+
+.section {
+	height: 100vh;
+}
+
+.section1 {
+	background: url('../img/index-background.jpg');
+	background-size: 100% 100%;
+}
+
+@media screen and (min-width: 760px) {
+	.navbar-default {
+		background-color: rgba(254,216,141, 0.6);
+		background-image: none;
+		border: none;
+		border-radius: 0;
+		height: 160px;
+	}
+
+	.logo {
+		src: url('../img/logo.png');
+	}
+
+	.navbar-right {
+		margin-top: 50px;
+	}
+
+	span.menu-item {
+		font-family: 'BlanchCapsRegular';
+		color: #000000;
+		font-size: 50px;
+		margin: 0 30px;
+	}
+}
+
+.description {
+	width: 400px;
+	font-family: 'BlanchCondensed';
+	font-size: 75px;
+	text-transform: uppercase;
+	color: #fff;
+	line-height: 60px;
+	padding: 50px 30px;
+}
+
+.btn-discover {
+	margin: auto;
+}
+
+.section2 {
+	background: url('../img/index-section2.png');
+	background-repeat: no-repeat;
+	background-position: center;
+}
